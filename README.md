@@ -1,2 +1,2 @@
 # googlebot
-A slackbot that listens to specific events and will send the msg to AWS API Gateway to trigger a lambda function that will make GET request to googles custom search API to retrieve a list of results that we will then post back to the channel where the event was first triggered.
+A simple Slack bot that is integrated with AWS API Gateway and Lambda to receive specific events type via slack message and process the event to return a list of google search results based on the users input.
